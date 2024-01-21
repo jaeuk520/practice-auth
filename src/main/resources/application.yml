@@ -1,0 +1,18 @@
+server:
+  servlet:
+    encoding:
+      force-response: true
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url:
+    username:
+    password:
+
+jwt:
+  secret:
